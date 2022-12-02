@@ -1,0 +1,206 @@
+body{
+  background-image: url(./fondo.jpg);
+  background-size: auto;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+}
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+.headerContainer{
+  padding: 1rem 10vw 1rem 10vw;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  gap: 12px;
+  
+}
+#app {
+  padding: 0 10vw ;
+  display: flex;
+  align-items: start;
+  justify-content: center; 
+  margin: 0;
+  flex:1;
+}
+.header {
+  display: flex;
+  align-items: start;
+  justify-content: center;  
+  
+  width: 100vw;
+  background-color: #f0f2f5;
+  
+}
+.headerInfo {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.headerName {
+  color: #242e33;
+  font-size: 16px;
+  margin: 0;
+}
+.headerStatus {
+  color: #667781;
+  font-size: 12px;
+  margin: 0;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+#today {
+  width: fit-content;
+  background-color: white;
+  margin: 0;
+  padding: 6px;
+  border-radius: 4px;
+  color: #54656f;
+  font-size: 12px;
+}
+.incomeMsgBubble {
+  display: flex;
+  translate: -20px;
+}
+
+.incomeMsg {
+  background-color: white;
+  width: fit-content;
+  margin: 0;
+  padding: 6px;
+  border-radius: 0px 4px 4px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-right: 20px solid white;
+  border-bottom: 20px solid transparent;
+}
+.sentMsgBubble {
+  display: flex;
+  translate: -20px;
+  justify-content: flex-end;
+  translate: 20px;
+}
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #D9FDD2;
+}
+.message {
+  color: #111b21;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+  margin: 0;
+}
+
+.link{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #035f1a;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+  margin: 0;
+  background: #035f1a;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+
+}
+
+.link:hover{
+  background-color: #4CAF50; 
+  color: #4CAF50;
+}
+
+.timestamp {
+  color: #687983;
+  font-size: 12px;
+  align-self: end;
+}
+p {
+  margin-top: 0;
+}
+textarea {
+  border:none;
+  background-color: #D9FDD2;
+  min-height: 6rem;
+  width: 60vw;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  max-width: 500px;
+}
+input {
+  width: 40vw;
+  max-width: 340px;
+  border: none;
+  background-color: #D9FDD2;
+  border-radius: 4px 0px 4px 4px;
+  padding: 6px;
+  color: #111b21;
+  font-size: 16px;
+}
+
+
+::-webkit-input-placeholder { 
+  color: #77868F;
+}
+
+:-ms-input-placeholder { 
+  color: #77868F;
+}
+
+::placeholder {
+  color: #77868F;
+}
+
+
+footer {
+  flex: 0 0 auto;
+  align-self: center;
+  margin: 0px;
+  display: flex !important;
+  align-items: center;
+  column-gap: 12px;
+  color:rgb(94, 94, 94);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+
+.footer-image {
+  margin: 0;
+  width: 65px;
+  height: 37px;
+}
+
+p {
+  margin: 0;
+}
